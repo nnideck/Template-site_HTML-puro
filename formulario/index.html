@@ -7,9 +7,183 @@
     <title>SUBSCRIBE</title>
 </head>
 <body>
-    
+    <form action="#" method="post">
+        <fieldset style="border-color:darkcyan; border-style: solid; border-width: 2px;">
+            <legend style="font-family: 'Courier New'; color: darkcyan; height: 15px;"><b>DADOS PESSOAIS</b></legend>
+        <label><b>Nome Completo:</b>&nbsp;
+<input type="text" maxlength="150" name="nome completo" placeholder="Seu nome">
+ </label>
+ <br>
+ <br>
+ <label><b>E-mail:</b>&nbsp;
+<input type="email" name="email" maxlength="50" placeholder="Seu e-mail">
+ </label>
+ <br>
+ <br>
+ <label><b>Data de Nascimento:</b>&nbsp;
+    <input type="date" min="1920-01-01" max="2023-02-12" name="nascimento">
+     </label>
+     <br>
+     <p><b>Sexo:</b>
+        <br>
+<label>Masculino
+    <input type="radio" name="sexo" value="Masculino">
+</label>
+<br>
+<label>Feminino
+    <input type="radio" name="sexo" value="Feminino">
+</label>
+<br>
+<label>Outro
+    <input type="radio" name="sexo" value="Outro">
+</label>
+</p>
+<label><b>Foto Recente:</b> &nbsp;
+    <input type="file" name="foto" accept=".jpg, .jpeg, .png">
+</label>
+</fieldset>
+<fieldset style="border-color: coral;">
+    <legend style="font-family: 'Courier New'; color: coral; height: 15px;"><b>PESQUISA</b></legend>
+<p><b>Possui Carro?</b>
+    <br>
+<label>Sim
+    <input type="radio" name="carro" value="sim">
+</label>
+<br>
+<label>Não
+    <input type="radio" name="carro" value="não">
+</label>
+<br>
+<label>Quantos?
+    <input type="number" name="quantoscarros" max="3" min="0">
+</label>
+</p>
+<label><b>Quantos dias por semana costuma pedir comida?</b> 
+    <br>
+    <input type="number" name="diascomida" max="7" min="0">
+</label>
+<p><b>O que gosta de comer:</b>
+    <br>
+<label>Lanches
+    <input type="checkbox" name="lanches" value="lanches">
+</label>
+<label>Pizzas
+    <input type="checkbox" name="pizzas" value="pizzas">
+</label>
+<label>Doces e bolos
+    <input type="checkbox" name="docesebolos" value="docesebolos">
+</label>
+<label>Japonesa
+    <input type="checkbox" name="japonesa" value="japonesa">
+</label>
+<label>Árabe
+    <input type="checkbox" name="arabe" value="arabe">
+</label>
+<label>Chinesa
+    <input type="checkbox" name="chinesa" value="chinesa">
+</label>
+<label>Vegetariana
+    <input type="checkbox" name="vegetariana" value="vegetariana">
+</label>
+<label>Gourmet
+    <input type="checkbox" name="gourmet" value="gourmet">
+</label>
+<label>Bebidas
+    <input type="checkbox" name="bebidas" value="bebidas">
+</label>
+<label>Salgados
+    <input type="checkbox" name="marmita" value="marmita">
+</label>
+</p>
+<p><b>Qual o sistema do seu smartphone?</b>
+    <br>
+    <label>Android
+        <input type="radio" name="android" value="android">
+    </label>
+    <label>IOS
+        <input type="radio" name="ios" value="ios">
+    </label>
+</p>
+<p><b>Países que já visitou:</b>
+    <br>
+<label>Argentina
+    <input type="checkbox" name="argentina" value="argentina">
+</label>
+<label>Austrália
+    <input type="checkbox" name="australia" value="australia">
+</label>
+<label>Portugal
+    <input type="checkbox" name="portugal" value="portugal">
+</label>
+<label>EUA
+    <input type="checkbox" name="eua" value="eua">
+</label>
+<label>Itália
+    <input type="checkbox" name="italia" value="italia">
+</label>
+<label>França
+    <input type="checkbox" name="franca" value="franca">
+</label>
+<label>Espanha
+    <input type="checkbox" name="espanha" value="espanha">
+</label>
+<label>Coréia do Sul
+    <input type="checkbox" name="coreiadosul" value="coreiadosul">
+</label>
+<label>Japão
+    <input type="checkbox" name="japao" value="japao">
+</label>
+</p>
+<p><b>Gostaria de receber um brinde?</b>
+    <br>
+<label>Sim
+    <input type="radio" name="sim" value="sim">
+</label>
+<label>Não
+    <input type="radio" name="nao" value="nao">
+</label>
+</p>
+</fieldset>
+<fieldset style="border-color: darkslateblue;">
+    <legend style="font-family: 'Courier New'; height: 15px; color: darkslateblue;"><b>ENDEREÇO</b></legend>
+<label><b>CEP</b>
+<input type="text" minlength="9" maxlength="9" name="cep">
+</label>
+<br>
+<label><b>Endereço:</b>
+    <input type="text" maxlength="150" name="endereco">
+    </label>
+    <br>
+    <label><b>Número</b>
+        <input type="text" maxlength="10" name="endereconumero">
+        </label>
+        <label><b>Complemento</b>
+            <input type="text" maxlength="50" name="enderecocomplemento">
+            </label>
+            <br>
+            <label><b>Bairro</b>
+                <input type="text" maxlength="100" name="bairro">
+                </label>
+                <br>
+                <label><b>Cidade</b>
+                    <input type="text" maxlength="100" name="cidade">
+                    </label>
+<p><b>Estado:</b>
+<br>
+<select>
+    <option>Paraná</option>
+    <option>São Paulo</option>
+    <option>Rio de Janeiro</option>
+</select>
+</p>
+</fieldset>
+<p><b>Alguma mensagem sobre nossa pesquisa?</b></p>
+<textarea cols="50" rows="10" placeholder="Escreva sua opinião aqui"></textarea>
+<br>
+<br>
+<br>
+<button type="submit">ENVIAR</button>
+    </form>
 
-
-    
 </body>
 </html>
