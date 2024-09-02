@@ -1,2 +1,2 @@
 # site-gatinho
-Site criado em HTML puro - kitten
+Site criado em HTML puro.
